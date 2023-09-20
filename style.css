@@ -6,6 +6,9 @@
     --Very-Pale-Cyan: hsl(193, 100%, 96%);
     --Very-Dark-Cyan: hsl(192, 100%, 9%);
 }
+*{
+    overflow-x: unset;
+}
    /* nav section */
 header{
     background: url(./images/bg-hero-desktop.svg)  hsl(189, 100%, 97%) no-repeat;
@@ -22,13 +25,67 @@ nav button{
 .hero-content button{
     background-color: var(--Pink );
 }
+.last{
+    background-color: var(--Very-Dark-Cyan);
+    height: 600px;
+    margin-top: 20rem;
+}
+.last button{
+background-color: var(--Pink);
 
 
+}
+.giz{
+background-color: white;
+height: 200px;
+width: 600px;
+align-items: center;
+position: relative;
+translate: 60% 60%;
+bottom: 15rem;
+text-align: center;
+gap: 3rem;
+margin-bottom: 3rem;
+}
+.giz h2{
+    padding-top: 3rem;
+}
+.giz button{
+    margin-top: 2rem;
+}
+.foot{
+    position: absolute;
+}
+.foot img{
+    background-color: white;
+}
+.out{
+    color: white;
+    padding-top: 2rem;
+}
+.out a{
+    text-decoration: unset;
+}
+@media screen and (max-width: 400px){
+.last{
+    height: 1100px;
+}
+.giz{
+    translate: 0% 0%;
+    align-items: start;
+    justify-content: start;
+    display: grid;
+    overflow-x: unset;
+    height: 100px;
+    width: 390px;
 
+}
+.giz h2{
+    padding-top: 0rem;
+    width: 300px;
+}
+.giz button{
+    width: 100px ;
+}
 
-
-
-
-
-
-container mx-5  py-5
+}
