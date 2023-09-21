@@ -74,23 +74,20 @@ margin-bottom: 3rem;
     translate: 0% 0%;
     align-items: start;
     justify-content: start;
-    display: grid;
-    height: 200px;
-    width: 390px;
-    top: px;
-    margin-top: 3rem;
+    height: 300px;
+    width: 350px;
+    padding-top: 5rem;
 
 }
 .giz button{
-    margin-bottom: 1rem;
-    width: 300px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    width: 500px;
+
 
 }
 .giz h2{
     padding-top: 0.001rem;
-}
-.giz button{
-    /* width: 100px; */
 }
 
 }
